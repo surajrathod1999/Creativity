@@ -1,0 +1,75 @@
+*,html.body
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-color: deepskyblue;
+    height: 112px;
+    line-height: 112px;
+}
+
+ul
+{
+    list-style: none;
+}
+
+ul li
+{
+    display: inline-block;
+}
+header nav
+{
+    float: right;
+}
+
+.logo img
+{
+    margin: 30px;
+}
+
+header nav ul li a
+{
+    padding-right: 30px;
+    font-weight: bold;
+    color: white;
+    transition: all 0.5s ease-in;
+}
+
+
+header nav ul li a:hover
+{
+    text-decoration: none;
+    color: red;
+}
+
+.img1
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//image/wl.jpeg);
+    background-size: 100% 100%;
+}
+
+.slider,.slider ul,.slider ul li
+{
+    height: 710px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.slider h2
+{
+    font-weight: bold;
+}
+
+.slider span
+{
+    color: orange;
+}
+
+.slider a
+{
+    padding: 10px
+}
